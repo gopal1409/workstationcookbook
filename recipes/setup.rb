@@ -3,6 +3,8 @@ package 'tree' do
 end
 package 'ntp'
 
+package 'vim'
+
 file '/etc/motd' do
 	content "this is the property of capgemini"
 	action :create

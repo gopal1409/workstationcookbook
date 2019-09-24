@@ -1,0 +1,85 @@
+    1  wget https://packages.chef.io/files/stable/chefdk/4.3.13/ubuntu/18.04/chefdk_4.3.13-1_amd64.deb
+    2  dpkg -i chefdk_4.3.13-1_amd64.deb 
+    3  chef
+    4  clear
+    5  chef --version
+    6  clear
+    7  history
+    8  chef --version
+    9  clear
+   10  ls
+   11  vi hello.rb
+   12  chef-client -z hello.rb 
+   13  cat hello.rb 
+   14  ls /hello.rb 
+   15  cat /hello.rb 
+   16  chef-client -z hello.rb 
+   17  clear
+   18  ls
+   19  vi hello.rb 
+   20  chef-client -z hello.rb 
+   21  clear
+   22  cat hello.rb 
+   23  vi hello.rb 
+   24  chef-client -z hello.rb 
+   25  tree
+   26  apt-get update
+   27  chef-client -z hello.rb 
+   28  vi hello.rb 
+   29  tree
+   30  clear
+   31  vi setup.rb
+   32  chef-client --local-mode setup.rb 
+   33  vi setup.rb 
+   34  chef-client --local-mode setup.rb 
+   35  cat setup.rb 
+   36  vi sesoifjkljklsf
+   37  vi setup.rb 
+   38  chef-client --local-mode setup.rb 
+   39  vi setup.rb 
+   40  chef-client --local-mode setup.rb 
+   41  ntpd
+   42  ntp
+   43  cat setup.rb 
+   44  ls
+   45  clear
+   46  mkdir cookbooks
+   47  chef --help
+   48  chef generate --help
+   49  clear
+   50  chef generate cookbook cookbooks/workstation
+   51  clear
+   52  tree cookbooks/workstation/
+   53  cat cookbooks/workstation/metadata.rb 
+   54  vi cookbooks/workstation/metadata.rb 
+   55  cat cookbooks/workstation/recipes/default.rb 
+   56  ls
+   57  cat setup.rb 
+   58  clear
+   59  mv setup.rb cookbooks/workstation/recipes/
+   60  tree cookbooks/workstation/recipes/
+   61  cd cookbooks/workstation/
+   62  ls
+   63  tree
+   64  clear
+   65  git init
+   66  git status
+   67  ls
+   68  git add .
+   69  git status
+   70  git commit -m "Intial Commit"
+   71  clear
+   72  history
+   73  git status
+   74  git logs
+   75  git log
+   76  tree
+   77  vi recipes/setup.rb 
+   78  clear
+   79  git diff
+   80  ls -la
+   81  git remote add origin https://github.com/gopal1409/workstationcookbook.git
+   82  git push -u origin master
+   83  ls
+   84  clear
+   85  history > firstclass.txt
